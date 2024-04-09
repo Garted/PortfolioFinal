@@ -1,0 +1,121 @@
+@media (min-width: 1201px) and (max-width: 1500px) {
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+    }
+    .footer-coloborationblock {
+        width: 1140px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .stack {
+        .stack-block {
+            max-width: 950px;
+        }
+    }
+    .footer-coloborationblock {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 730px;
+        margin: 0 auto;
+    }
+    .stack {
+        min-height: 1200px;
+        .stack-block {
+            max-width: 650px;
+        }
+    }
+    .footer-coloborationblock {
+        max-width: 730px;
+        .coloboration-title {
+            font-size: 30px;
+            font-weight: 700px;
+        }
+        .coloboration-descr {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 540px;
+        margin: 0 auto;
+    }
+    .promo {
+        .promo-title {
+            font-size: 46px;
+        }
+        .promo-subtitle {
+            max-width: 520px;
+            margin: 10px auto;
+            font-size: 26px;
+        }
+    }
+
+    .stack {
+        .stack-block {
+            max-width: 500px;
+        }
+    }
+    .footer-coloborationblock {
+        padding: 15px;
+        max-width: 540px;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        .coloborationblock-item {
+            align-items: center;
+        }
+        .coloboration-title {
+            font-size: 30px;
+            font-weight: 700px;
+        }
+        .coloboration-descr {
+            font-size: 20px;
+        }
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .stack {
+        min-height: 2400px;
+        .stack-block {
+            margin-top: 20px;
+            width: 85%;
+        }
+    }
+    .portfolio {
+        .portfolio-item {
+            max-width: 400px;
+            max-height: 250px;
+        }
+    }
+    .footer-coloborationblock {
+        padding: 15px;
+        max-width: 90%;
+        flex-direction: column;
+        .coloboration-title {
+            font-size: 30px;
+            font-weight: 700px;
+        }
+        .coloboration-descr {
+            font-size: 20px;
+        }
+    }
+    .form {
+        width: 90%;
+    }
+}

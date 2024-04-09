@@ -1,0 +1,57 @@
+.header {
+    padding-top: 30px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.hide {
+    transition: all 0.4s ease;
+    margin-left: -100px;
+}
+.nav-navigation {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+ul {
+    position: absolute;
+    display: none;
+    gap: 20px;
+}
+li {
+    width: 70px;
+    text-align: center;
+    color: $purple;
+    font-size: 16px;
+    font-weight: 700;
+    a {
+        color: inherit;
+    }
+}
+li:hover {
+    color: #0483fa;
+}
+@keyframes ul-ani {
+    from {
+        position: absolute;
+        display: flex;
+        right: -340px;
+        opacity: 0;
+    }
+    to {
+        position: absolute;
+        display: flex;
+        opacity: 1;
+        right: 0;
+    }
+}
+.ul-ani {
+    animation: ul-ani 1s ease;
+    display: flex;
+    position: absolute;
+    right: 0;
+}
