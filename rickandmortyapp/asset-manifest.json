@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/rickandmortyapp/static/css/main.9ed3a793.css",
+    "main.js": "/rickandmortyapp/static/js/main.333f2d35.js",
+    "static/media/wp6736990.webp": "/rickandmortyapp/static/media/wp6736990.87305a6b3d695fb20ef5.webp",
+    "index.html": "/rickandmortyapp/index.html",
+    "main.9ed3a793.css.map": "/rickandmortyapp/static/css/main.9ed3a793.css.map",
+    "main.333f2d35.js.map": "/rickandmortyapp/static/js/main.333f2d35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ed3a793.css",
+    "static/js/main.333f2d35.js"
+  ]
+}
